@@ -14,7 +14,7 @@ from isaaclab.assets.articulation import ArticulationCfg
 SOARM100_CFG = ArticulationCfg(
     prim_path="{ENV_REGEX_NS}/SOARM100",
     spawn=sim_utils.UsdFileCfg(
-        usd_path="C:\\Users\\tiffany.shih\\littlestone\\IsaacLab\\assets\\USD\\so100\\so100.usd", # usd_path
+        usd_path="D:\\IsaacLab\\assets\\USD\\so100\\so100.usd", # usd_path
         activate_contact_sensors=False,
         rigid_props=sim_utils.RigidBodyPropertiesCfg(
             disable_gravity=False,
